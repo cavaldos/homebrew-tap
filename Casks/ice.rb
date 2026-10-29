@@ -1,6 +1,6 @@
 cask "ice" do
-  version "0.11.30"
-  sha256 "6ebeaa38bb1b32f97de4ffc5a07a74c5fa3c820ab7dc7322cc3a9b8d58977fe2"
+  version "0.11.31"
+  sha256 "605882bbba036e0013f0eaeae9fffb00280540755dbd69b280ec03217e4c6705"
 
   url "https://github.com/cavaldos/Ice/releases/download/v#{version}/Ice.zip"
   name "Ice"
