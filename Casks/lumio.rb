@@ -1,6 +1,6 @@
 cask "lumio" do
-  version "0.0.3"
-  sha256 "55f032d6ee197b8136c1f4fe19ec0d3cdd2d2f0fdd694ad5c63302613395ce3f"
+  version "0.0.4"
+  sha256 "ce0ee0c670fa570a56c1a37606417b2a88ac6ebd69b127347e5ce80308aaf0cf"
 
   url "https://github.com/cavaldos/Lumio/releases/download/v#{version}/Lumio.dmg"
   name "Lumio"
@@ -20,12 +20,17 @@ cask "lumio" do
         must_succeed: false
   end
 
-  uninstall quit: "noah-code.Lumio"
+  uninstall quit: "com.cavaldos.Lumio"
 
   zap trash: [
     "~/.lumio",
     "~/Library/Application Support/lumio",
+    "~/Library/Preferences/com.cavaldos.Lumio.plist",
+    "~/Library/Caches/com.cavaldos.Lumio",
+    "~/Library/HTTPStorages/com.cavaldos.Lumio",
     "~/Library/Preferences/noah-code.Lumio.plist",
+    "~/Library/Caches/noah-code.Lumio",
+    "~/Library/HTTPStorages/noah-code.Lumio",
   ]
 
   caveats <<~EOS
