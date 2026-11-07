@@ -1,6 +1,6 @@
 cask "thorion" do
   version "0.0.3"
-  sha256 "ba5f78f04d1e335f7aedb37ad7b5896b3722bc41a1a341cbf65a436769dc15fd"
+  sha256 "3a02ef8032449c374953a38aa8b147b195fdff022c900b9a4abfb5b50acc5ab4"
 
   url "https://github.com/cavaldos/Thorion/releases/download/v#{version}/Thorion.dmg"
   name "Thorion"
