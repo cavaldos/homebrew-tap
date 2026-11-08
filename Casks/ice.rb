@@ -1,6 +1,6 @@
 cask "ice" do
-  version "0.11.35"
-  sha256 "72b7090843194ed71af77a323cef28cb7bfcf3cb9bf1cefee83176e366e7c45c"
+  version "0.11.36"
+  sha256 "59f2bb47e36f8492b33ff881f67635b1afc46668813b9d6e166d85e3dc909ff3"
 
   url "https://github.com/cavaldos/Ice/releases/download/v#{version}/Ice.zip"
   name "Ice"
@@ -17,8 +17,8 @@ cask "ice" do
   ]
 
   caveats <<~EOS
-    Ice is ad-hoc signed. On first launch, right-click the app and choose Open.
-    After every update, re-grant Accessibility and Screen Recording in
-    System Settings > Privacy & Security (see https://github.com/cavaldos/Ice#permissions).
+    Ice is self-signed and not notarized. On first launch, right-click the app and choose Open.
+    Grant Accessibility and Screen Recording once in System Settings > Privacy & Security;
+    updates keep them (see https://github.com/cavaldos/Ice#permissions).
   EOS
 end
