@@ -1,6 +1,6 @@
 cask "lumio" do
-  version "0.0.6"
-  sha256 "f21cc579c0eb03f9aea228eaa38e6da3097bab9603916790f18e4456425961b9"
+  version "0.0.7"
+  sha256 "a7c847b6aefd84597c822820f4c27fdd6a52a7a0f249648fceb0fbbbbc7fadd7"
 
   url "https://github.com/cavaldos/Lumio/releases/download/v#{version}/Lumio.dmg"
   name "Lumio"
